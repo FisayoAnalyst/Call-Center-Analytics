@@ -11,6 +11,7 @@
 - [Key Insights](#key-insights)
 - [Recommendations](#recommendations)
 - [Conclusion](#conclusion)
+- [Dashboard Access](#dashboard-access)
 
 
 ### Project Overview
@@ -122,7 +123,17 @@ The analysis reveals strong resolution rates and agent performance but highlight
 
 ### Dashboard Access
 
-[📥 Download Dashboard (PBIX File)](./Call%20Center%20Analytics%20Dashboard.pbix)
+To interact with the report:
+
+- Open the `.pbix` file using [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/)
+
+- Explore the visuals, filter data, and review insights across different report pages.
+
+File: Download the Power BI file [`CallCenterDashboard.pbix`](./CallCenterDashboard.pbix)
+
+ Note: Power BI Desktop must be installed on your device to open `.pbix` files. You can download it [here](https://powerbi.microsoft.com/en-us/desktop/)
+
+
 
 
 
