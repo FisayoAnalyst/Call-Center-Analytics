@@ -128,7 +128,7 @@ To interact with the report:
 - Open the `.pbix` file using [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).
 - Explore the visuals, filter data, and review insights across different report pages.
 
-**Download** the Power BI file [`CallCenterDashboard.pbix`](./CallCenterDashboard.pbix)
+**Download** the Power BI file [`CallCenterDashboard.pbix`](https://github.com/FisayoAnalyst/Call-Center-Analytics/commit/d8d1f543f306275d1db2fd2a1470b75644442949)
 
 *Note:* Power BI Desktop must be installed on your device to open `.pbix` files. You can download it [here](https://powerbi.microsoft.com/en-us/desktop/)
 
