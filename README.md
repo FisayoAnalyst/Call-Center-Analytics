@@ -15,7 +15,7 @@
 
 ### Project Overview
 
-This project presents an in-depth analysis of a telecom call center's operations using Power BI. By analyzing customer interactions, agent performance, and service trends, the goal is to uncover actionable insights that help optimize call handling efficiency, enhance agent productivity, and improve overall customer satisfaction. The project is built on data from TheForage Virtual Experience Program and visualized through an interactive Power BI dashboard.
+This project analyzes operational data from a call center to uncover performance trends, agent efficiency, customer satisfaction patterns, and actionable areas for improvement. The analysis was conducted using Power BI, leveraging key performance indicators to drive strategic recommendations.
 
 ### Objectives
 
@@ -119,6 +119,11 @@ The Power BI dashboard provides a holistic view of call center operations:
 ### Conclusion
 
 The analysis reveals strong resolution rates and agent performance but highlights areas needing attention, particularly high call abandonment and low satisfaction during peak hours. Implementing strategic staffing, targeted training, and AI-driven solutions can significantly enhance operational efficiency and customer experience.
+
+### Dashboard Access
+
+[📥 Download Dashboard (PBIX File)](./Call%20Center%20Analytics%20Dashboard.pbix)
+
 
 
 
