@@ -126,7 +126,7 @@ The analysis reveals strong resolution rates and agent performance but highlight
 To interact with the report:
 
 - Open the `.pbix` file using [Power BI Desktop](https://powerbi.microsoft.com/en-us/desktop/).
-- Explore the visuals, filter data, and review insights across different report pages.
+- Explore the visuals, filter data, and review insights across different report pages. (https://github.com/FisayoAnalyst/Call-Center-Analytics/blob/main/Call_Center_Analytics_Report.pdf)
 
 **Download** the Power BI file [`CallCenterDashboard.pbix`](https://github.com/FisayoAnalyst/Call-Center-Analytics/releases/download/v1.0/Call.Center.Analytics.Dashboard.pbix)
 
