@@ -10,9 +10,7 @@ Reporting to the Head of Operations, an in-depth analysis was conducted to evalu
 This detailed review provides actionable intelligence that internal cross-functional teams will utilize to streamline daily operations, improve overall customer experience, and enhance service delivery. The key inisghts and recommendations focus on the following areas:
 
 - **Operational Efficiency** – assessed using metrics such as **Total Calls**, **Answer Rate**, **Abandonment Rate**, **Average Speed of Answer**, and **Resolution Rate**.
-
 - **Customer Satisfaction** – evaluated through **Average Satisfaction Rating**, **Resolution Status**, and **Call Abandonment Patterns**, revealing how service quality impacts customer experience.
-
 - **Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
 
 **Key findings:**
@@ -30,36 +28,40 @@ This detailed review provides actionable intelligence that internal cross-functi
 - Leverage high-performing agents as mentors
 - Improve Technical Support accessibility
 
+## Dataset Structure
 
+> The original dataset of 5,000 call records was split into **one fact table** and **six dimension tables** following star schema best practices. The fact table stores transactional call data, while the dimension tables provide descriptive attributes for analysis.
 
-### Dashboard Overview
+### Fact Table – `FactCalls`
+| Column Name        | Data Type | Description |
+|-------------------|-----------|-------------|
+| CallID             | INT       | Unique identifier for each call |
+| AgentID            | INT       | Foreign key referencing `DimAgent` |
+| TopicID            | INT       | Foreign key referencing `DimTopic` |
+| AnsweredID         | INT       | Foreign key referencing `DimAnswered` |
+| ResolvedID         | INT       | Foreign key referencing `DimResolved` |
+| DateID             | INT       | Foreign key referencing `DimDate` |
+| TimeID             | INT       | Foreign key referencing `DimTime` |
+| TalkDuration       | INT       | Duration of call in seconds |
+| SatisfactionRating | FLOAT     | Customer rating (1–5) |
 
-The Power BI dashboard provides a holistic view of call center operations:
+### Dimension Tables
+| Table Name       | Description |
+|-----------------|-------------|
+| **DimAgent**     | Agent details (AgentID, AgentName) |
+| **DimTopic**     | Call categories/topics (TopicID, TopicName) |
+| **DimAnswered**  | Call answered status (AnsweredID, Status) |
+| **DimResolved**  | Resolution status (ResolvedID, Status) |
+| **DimDate**      | Date attributes (DateID, Date, DayOfWeek, Month, Year) |
+| **DimTime**      | Time attributes (TimeID, Hour, Minute, Period) |
 
-- KPI Summary: Total calls, resolution rates, and satisfaction score.
+---
 
-- Call Volume Trends: Daily and monthly breakdowns.
+## ERD (Entity-Relationship Diagram)
 
-- Agent Performance: Comparison of call handling and resolution efficiency.
+> The diagram below illustrates the structure of the fact and dimension tables and their relationships:
 
-- Customer Feedback: Satisfaction ratings across topics and times.
-
-- Operational Metrics: Abandonment rates and response times.
-
-
-<img width="1328" height="735" alt="Dashboard_Overview" src="https://github.com/user-attachments/assets/d2fc936b-8a30-4c73-8928-2c521e76302b" />
-
-### Key Insights
-
-- Answered Calls: 81.08% with a resolution rate of 89.94%.
-
-- Peak Hours: 9 AM and 12 PM; highest abandonment at 5 PM (36.36%).
-
-- Top Topics: Technical Support, Streaming, and Payment Issues.
-
-- Top Agents: Jim, Greg, and Dan for resolution rates; Becky had the fastest response.
-
-- Customer Satisfaction: Peaks at 10 AM (4.00), lowest during 1-2 PM.
+## Insights Deep-Dive
 
 ### Recommendations
 
