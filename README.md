@@ -1,40 +1,28 @@
-# Call Center Performance Analysis
+  # Call Center Performance Report
 
-## Table of Contents
+  ## Client Background
 
-- [Project Overview](#project-overview)
-- [Objectives](#objectives)
-- [Data Description](#data-description)
-- [Tools & Technologies Used](#tools--technologies-used)
-- [Data Cleaning & Transformation](#data-cleaning--transformation)
-- [Dashboard Overview](#dashboard-overview)
-- [Key Insights](#key-insights)
-- [Recommendations](#recommendations)
-- [Conclusion](#conclusion)
-- [Dashboard Access](#dashboard-access)
+**ConnectCall Solutions** is a fictional customer engagement company created as part of a data analytics demonstration project. The organization operates within the Business Process Outsourcing (BPO) industry, providing outsourced customer service and technical support solutions for a wide range of client companies.
 
+Established to simulate a real-world call center environment, **ConnectCall Solutions** manages inbound and outbound interactions aimed at improving customer satisfaction, resolution efficiency, and overall service experience. The call center operations are overseen by the Head of Operations, with active involvement from key departments including Customer Support, Quality Assurance, Training and Development, Human Resources, and Data Analytics.
 
-### Project Overview
+The dataset used for this analysis was sourced from the **Forage Virtual Experience Program**, designed to simulate real-world business data. It contains **5,000 call records** collected over a three-month period **(January to March)**, including fields such as call status (answered or abandoned), resolution status, talk duration, and customer satisfaction rating.
 
-This project analyzes operational data from a call center to uncover performance trends, agent efficiency, customer satisfaction patterns, and actionable areas for improvement. The analysis was conducted using Power BI, leveraging key performance indicators to drive strategic recommendations.
+  ## Analysis Objectives
 
-### Objectives
+The goal of this project is to analyze the call center’s performance to gain actionable insights into **operational efficiency**, **agent productivity**, and **customer satisfaction**, while identifying possible operational bottlenecks that affect service delivery.
 
-The primary objective of this project is to:
+The analysis focuses on three key areas:
 
-- Visualize key performance metrics through a comprehensive Power BI dashboard.
+**Operational Efficiency** – assessed using metrics such as **Total Calls**, **Answer Rate**, **Abandonment Rate**, **Average Speed of Answer**, and **Resolution Rate**.
 
-- Track call volume trends and response rates.
+**Customer Satisfaction** – evaluated through **Average Satisfaction Rating**, **Resolution Status**, and **Call Abandonment Patterns**, revealing how service quality impacts customer experience.
 
-- Evaluate agent performance and efficiency.
+**Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
 
-- Analyze customer satisfaction patterns.
+This analysis translates **ConnectCall Solutions’** operational data into **actionable insights** that can help improve agent workflows, enhance service delivery, and optimize overall customer experience.
 
-- Identify peak call periods and potential operational bottlenecks.
-
-- Provide data-driven recommendations to improve staffing, training, and call resolution processes.
-
-### Data Description
+  ## Executive Summary
 
 The dataset, sourced from TheForage Virtual Experience Program, includes call records that capture customer support activity between January and March. Key features in the dataset:
 
