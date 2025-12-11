@@ -2,9 +2,9 @@
 
   ## Executive Summary
 
-**ConnectCall Solutions** is a fictional customer engagement company created as part of a data analytics demonstration project. The organization operates within the Business Process Outsourcing (BPO) industry, providing outsourced customer service and technical support solutions for a wide range of client companies. The company manages inbound and outbound interactions aimed at improving customer satisfaction, resolution efficiency, and overall service experience.
+ConnectCall Solutions is a simulated Business Process Outsourcing (BPO) call center created for this data analytics demonstration project. The company manages inbound and outbound customer interactions, aiming to optimize customer satisfaction, operational efficiency, and service quality.
 
-The dataset used for this analysis was sourced from the **Forage Virtual Experience Program**, designed to simulate real-world business data. It contains **5,000 call records** collected over a three-month period **(January to March)**, including fields such as call status (answered or abandoned), resolution status, talk duration, and customer satisfaction rating.
+This analysis leverages a dataset of 5,000 call records collected over a three-month period (January–March) from the Forage Virtual Experience Program. The dataset includes call outcomes, resolution status, talk duration, and customer satisfaction ratings.
 
 Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate **ConnectCall Solutions'** performannce, while identifying possible **operational bottlenecks** that affect service delivery.
 This detailed review provides actionable intelligence that internal cross-functional teams will utilize to streamline daily operations, improve overall customer experience, and enhance service delivery. The key inisghts and recommendations focus on the following areas:
@@ -15,31 +15,22 @@ This detailed review provides actionable intelligence that internal cross-functi
 
 - **Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
 
-ConnectCall Solutions — a demo Business Process Outsourcing (BPO) call center — handled 5,000 customer calls between January and March, with strong overall performance across key service metrics. The center achieved a high resolution rate of 89.94%, an answered rate of 81.08%, and an average satisfaction score of 3.40/5, indicating generally effective service delivery. However, deeper analysis revealed operational bottlenecks tied to specific topics, time-of-day performance dips, and varying agent efficiency levels. These insights highlight opportunities to boost customer satisfaction, improve topic-level expertise, and optimize workforce scheduling.
+**Key findings:**
 
-⭐ Key Insights
+- **High overall service performance:** 81% of calls answered, 89.94% resolution rate, and average satisfaction of 3.40/5.
+- **Topic-level bottlenecks:** Streaming and Payment issues had lower resolution rates and satisfaction scores, indicating complex or recurring customer challenges.
+- **Time-of-day inefficiencies:** Early afternoon (1–2 PM) showed dips in resolution and satisfaction, suggesting staffing gaps or agent fatigue.
+- **Agent performance variations:** Certain agents consistently outperformed peers, highlighting opportunities for mentorship and targeted coaching.
+- **Technical Support insights:** Despite a 21% abandonment rate, resolution for answered calls was 91%, showing strong agent capability.
 
-High overall service performance: 5,000 calls processed; 81% answered, 19% abandoned, and nearly 90% resolved.
+**Recommendations:**
+- Targeted training for high-friction topics
+- Optimize staffing during low-performance hours
+- Investigate recurring Streaming and Payment issues
+- Leverage high-performing agents as mentors
+- Improve Technical Support accessibility
 
-Topic-level bottlenecks: Streaming and Payment issues accounted for high call volumes but had the lowest resolution rates and lower satisfaction scores, signaling complex or recurring customer challenges.
 
-Time-of-day inefficiencies: 1 PM and 2 PM showed significant drops in resolution and satisfaction, suggesting agent fatigue or staffing gaps during early afternoon hours.
-
-Agent performance variations: While agents generally performed well, top performers (e.g., Dan, Martha, Greg) consistently delivered higher satisfaction and resolution rates, whereas others struggled particularly with Streaming and Payment-related queries.
-
-Technical Support pattern: Despite having the highest abandonment rate (21%), Technical Support achieved the highest resolution rate (91%), indicating strong agent capability once calls were answered.
-
-⭐ Recommendations
-
-Targeted training for high-friction topics — strengthen agent competency in Streaming and Payment issues to improve resolution rates and customer satisfaction.
-
-Optimize staffing during low-performance hours (1 PM–2 PM) — adjust break schedules, redistribute workload, or rotate agents to maintain productivity.
-
-Investigate root causes of recurring Streaming and Payment issues — address underlying product/service challenges to reduce call volume and improve customer experience.
-
-Leverage high-performing agents as mentors — use Dan, Martha, and Greg to coach peers on resolution strategies, especially for complex topics.
-
-Improve Technical Support accessibility — the high abandonment rate suggests longer queues or customer frustration; consider dedicated routing or increasing staff allocation.
 
 ### Dashboard Overview
 
