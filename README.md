@@ -2,9 +2,9 @@
 
   ## Executive Summary
 
-ConnectCall Solutions is a simulated Business Process Outsourcing (BPO) call center created for this data analytics demonstration project. The company manages inbound and outbound customer interactions, aiming to optimize customer satisfaction, operational efficiency, and service quality.
+**ConnectCall Solutions** is a simulated Business Process Outsourcing (BPO) call center created for this data analytics demonstration project. The company manages inbound and outbound customer interactions, aiming to optimize customer satisfaction, operational efficiency, and service quality.
 
-This analysis leverages a dataset of 5,000 call records collected over a three-month period (January–March) from the Forage Virtual Experience Program. The dataset includes call outcomes, resolution status, talk duration, and customer satisfaction ratings.
+This analysis leverages a dataset of **5,000 call records** collected over a three-month period **(January–March)** from the Forage Virtual Experience Program. The dataset includes call outcomes, resolution status, talk duration, and customer satisfaction ratings.
 
 Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate **ConnectCall Solutions'** performannce, while identifying possible **operational bottlenecks** that affect service delivery.
 This detailed review provides actionable intelligence that internal cross-functional teams will utilize to streamline daily operations, improve overall customer experience, and enhance service delivery. The key inisghts and recommendations focus on the following areas:
