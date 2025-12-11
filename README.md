@@ -1,6 +1,6 @@
-  # Call Center Performance Report
+  # Call Center Performance Analysis
 
-  ## Client Background
+  ## Executive Summary
 
 **ConnectCall Solutions** is a fictional customer engagement company created as part of a data analytics demonstration project. The organization operates within the Business Process Outsourcing (BPO) industry, providing outsourced customer service and technical support solutions for a wide range of client companies. The company manages inbound and outbound interactions aimed at improving customer satisfaction, resolution efficiency, and overall service experience.
 
@@ -15,47 +15,31 @@ This detailed review provides actionable intelligence that internal cross-functi
 
 - **Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
 
-  ## Executive Summary
+ConnectCall Solutions — a demo Business Process Outsourcing (BPO) call center — handled 5,000 customer calls between January and March, with strong overall performance across key service metrics. The center achieved a high resolution rate of 89.94%, an answered rate of 81.08%, and an average satisfaction score of 3.40/5, indicating generally effective service delivery. However, deeper analysis revealed operational bottlenecks tied to specific topics, time-of-day performance dips, and varying agent efficiency levels. These insights highlight opportunities to boost customer satisfaction, improve topic-level expertise, and optimize workforce scheduling.
 
-The dataset, sourced from TheForage Virtual Experience Program, includes call records that capture customer support activity between January and March. Key features in the dataset:
+⭐ Key Insights
 
-- Call ID: Unique identifier per call.
+High overall service performance: 5,000 calls processed; 81% answered, 19% abandoned, and nearly 90% resolved.
 
-- Agent: Name of the service representative.
+Topic-level bottlenecks: Streaming and Payment issues accounted for high call volumes but had the lowest resolution rates and lower satisfaction scores, signaling complex or recurring customer challenges.
 
-- Date/Time: Timestamp of call initiation.
+Time-of-day inefficiencies: 1 PM and 2 PM showed significant drops in resolution and satisfaction, suggesting agent fatigue or staffing gaps during early afternoon hours.
 
-- Topic: Call reason (e.g., Technical Support, Payment).
+Agent performance variations: While agents generally performed well, top performers (e.g., Dan, Martha, Greg) consistently delivered higher satisfaction and resolution rates, whereas others struggled particularly with Streaming and Payment-related queries.
 
-- Answered/Resolved: Status of call handling.
+Technical Support pattern: Despite having the highest abandonment rate (21%), Technical Support achieved the highest resolution rate (91%), indicating strong agent capability once calls were answered.
 
-- Speed of Answer: Time taken to respond to calls.
+⭐ Recommendations
 
-- Average Talk Duration: Duration of conversations.
+Targeted training for high-friction topics — strengthen agent competency in Streaming and Payment issues to improve resolution rates and customer satisfaction.
 
-- Satisfaction Rating: Customer feedback score (1-5).
+Optimize staffing during low-performance hours (1 PM–2 PM) — adjust break schedules, redistribute workload, or rotate agents to maintain productivity.
 
-### Tools & Technologies Used
+Investigate root causes of recurring Streaming and Payment issues — address underlying product/service challenges to reduce call volume and improve customer experience.
 
-- Power BI: Data modeling, dashboard design, and DAX calculations.
+Leverage high-performing agents as mentors — use Dan, Martha, and Greg to coach peers on resolution strategies, especially for complex topics.
 
-- DAX: Custom measures and performance calculations.
-
-- Microsoft Excel: Preliminary data exploration.
-
-### Data Cleaning & Transformation
-
-To ensure data accuracy and consistency, the following steps were applied:
-
-- Filled missing values with zero where appropriate.
-
-- Removed duplicate entries and standardized data types.
-
-- Created a Star Schema model with Fact and Dimension tables.
-
-- Engineered new features including 'Weekday Type' and extracted call hours.
-
-- Developed DAX measures for average speed of answer, resolution rate, agent KPIs, and satisfaction analysis.
+Improve Technical Support accessibility — the high abandonment rate suggests longer queues or customer frustration; consider dedicated routing or increasing staff allocation.
 
 ### Dashboard Overview
 
