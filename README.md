@@ -2,25 +2,18 @@
 
   ## Client Background
 
-**ConnectCall Solutions** is a fictional customer engagement company created as part of a data analytics demonstration project. The organization operates within the Business Process Outsourcing (BPO) industry, providing outsourced customer service and technical support solutions for a wide range of client companies.
-
-Established to simulate a real-world call center environment, **ConnectCall Solutions** manages inbound and outbound interactions aimed at improving customer satisfaction, resolution efficiency, and overall service experience. The call center operations are overseen by the Head of Operations, with active involvement from key departments including Customer Support, Quality Assurance, Training and Development, Human Resources, and Data Analytics.
+**ConnectCall Solutions** is a fictional customer engagement company created as part of a data analytics demonstration project. The organization operates within the Business Process Outsourcing (BPO) industry, providing outsourced customer service and technical support solutions for a wide range of client companies. The company manages inbound and outbound interactions aimed at improving customer satisfaction, resolution efficiency, and overall service experience.
 
 The dataset used for this analysis was sourced from the **Forage Virtual Experience Program**, designed to simulate real-world business data. It contains **5,000 call records** collected over a three-month period **(January to March)**, including fields such as call status (answered or abandoned), resolution status, talk duration, and customer satisfaction rating.
 
-  ## Analysis Objectives
+Reporting to the Head of Operations, an in-depth analysis was conducted to evaluate **ConnectCall Solutions'** performannce, while identifying possible **operational bottlenecks** that affect service delivery.
+This detailed review provides actionable intelligence that internal cross-functional teams will utilize to streamline daily operations, improve overall customer experience, and enhance service delivery. The key inisghts and recommendations focus on the following areas:
 
-The goal of this project is to analyze the call center’s performance to gain actionable insights into **operational efficiency**, **agent productivity**, and **customer satisfaction**, while identifying possible operational bottlenecks that affect service delivery.
+- **Operational Efficiency** – assessed using metrics such as **Total Calls**, **Answer Rate**, **Abandonment Rate**, **Average Speed of Answer**, and **Resolution Rate**.
 
-The analysis focuses on three key areas:
+- **Customer Satisfaction** – evaluated through **Average Satisfaction Rating**, **Resolution Status**, and **Call Abandonment Patterns**, revealing how service quality impacts customer experience.
 
-**Operational Efficiency** – assessed using metrics such as **Total Calls**, **Answer Rate**, **Abandonment Rate**, **Average Speed of Answer**, and **Resolution Rate**.
-
-**Customer Satisfaction** – evaluated through **Average Satisfaction Rating**, **Resolution Status**, and **Call Abandonment Patterns**, revealing how service quality impacts customer experience.
-
-**Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
-
-This analysis translates **ConnectCall Solutions’** operational data into **actionable insights** that can help improve agent workflows, enhance service delivery, and optimize overall customer experience.
+- **Agent Performance** – measured using **Total Calls Handled**, **Resolution Rate per Agent**, **Average Talk Duration**, and **Customer Rating** providing insights into performance consistency and training needs.
 
   ## Executive Summary
 
